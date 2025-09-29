@@ -1,5 +1,7 @@
 # Claude Artifact Share Configuration 🚀
 
+Note: you will need to actually publish this to NPM rather than Github, because it turns out Claude doesn't load github files but will load https://cdn.jsdelivr.net/npm/ files
+
 This repository contains a JavaScript configuration file that enables a hard-coded Claude AI artifact (games, applications, and interactive content) to share its URLs from within Claude's iframe hosting environment. Other methods of hard-coding the URL did not work, which makes it difficult to add a share button.
 
 ## Purpose
@@ -160,6 +162,7 @@ After you create this artifact, you'll need to:
 * Get the artifact ID from the URL (it's the part after /artifacts/)
 * Update the artifact-share-config.js file in your GitHub repo with this ID
 * Push the update to GitHub
+* Publish the whole thing to NPM because Claude will load NPM but not gh! -- oops.
 
 ## License
 
