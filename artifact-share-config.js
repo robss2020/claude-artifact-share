@@ -25,6 +25,4 @@
         window.onArtifactConfigLoaded(artifactConfig);
     }
 
-    // Log success to console for debugging
-    console.log('Claude Artifact Share Config loaded successfully:', artifactConfig.url);
 })();
