@@ -9,7 +9,7 @@
 (function() {
     // Configuration object with artifact details
     const artifactConfig = {
-        url: "https://claude.ai/artifacts/YOUR_ARTIFACT_ID_HERE",  // UPDATE THIS!
+        url: "https://claude.ai/public/artifacts/bbca807b-1cbc-433c-973b-333349d48f07",  // UPDATE THIS!
         title: "My Awesome Claude Creation",
         description: "Created with Claude AI",
         version: "1.0.0",
